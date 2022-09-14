@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    background-color: #282D35;
+    height: 100vh;
+    padding: 2rem 4rem;
+    background-image: url("../public/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: right 40%;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    padding-top: 3rem;
+    letter-spacing: -0.05em;
+}
+
+.list-items {
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 1.2rem;
+    padding-left: 3rem;
+}
+
+.list-items li{
+    padding-top: 1.5rem;
+  
+}
+
+.list-items li::marker {
+    color: #61DAFB;
+    font-size: 1.6rem;
+}
+
+.react-logo-large {
+   
+}
+
+
